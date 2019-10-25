@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Libre Franklin', sans-serif;
+  line-height: 1.3rem; }
+
+a {
+  text-decoration: none;
+  color: #fff; }
+
+ul {
+  list-style: none; }
+
+.text-center {
+  text-align: center; }
+
+.container {
+  max-width: 1280px;
+  margin: auto;
+  overflow: hidden; }
+
+#home {
+  background: url("/dist/img/shawn-lee-WJRkIVjLg68-unsplash.jpg") no-repeat center center/cover;
+  height: 100vh;
+  color: #fff; }
+
+#main-nav {
+  display: flex;
+  justify-content: space-between; }
+
+#logo {
+  height: 130px; }
+
+#home ul {
+  display: flex;
+  margin: 2rem; }
+
+#home ul li {
+  margin-right: 0.7rem; }
+
+#home ul li a {
+  font-size: 1.1rem;
+  margin: 0.5rem 0.7rem;
+  padding: 0.5rem 0;
+  font-family: "Raleway",sans-serif; }
+
+#home ul li a:hover {
+  border-bottom: 1px #ffbc00 solid;
+  transition: border-bottom 500ms; }
+
+#home-content {
+  text-align: center; }
+
+#home-content .heading {
+  font-size: 4rem;
+  line-height: 3.5rem;
+  padding: 20%;
+  padding-bottom: 0; }
+
+.btn {
+  display: inline-block;
+  font-size: 1rem;
+  padding: 0.9rem 1.8rem;
+  color: #333;
+  margin-top: 4rem;
+  transition: all 0.5s; }
+
+.btn-light {
+  background: #ffbc00; }
+
+.btn:hover {
+  background: #cf7c08; }
+
+#about {
+  background: #fff; }
+
+#about h2 {
+  font-size: 3rem;
+  margin: 2rem 0; }
+
+#about p {
+  font-size: 1.3rem;
+  line-height: 1.6rem; }
+
+span {
+  color: #cf7c08; }
+
+#about .about-content h2 {
+  font-size: 2rem;
+  line-height: 2rem; }
+
+.aboutus {
+  display: flex; }
+
+.margin {
+  margin: 4rem 0; }
+
+.about-image {
+  border-radius: 50%; }
+
+#rooms h1 {
+  font-size: 3.5rem;
+  padding: 3rem; }
+
+#rooms .rooms-info {
+  color: #333;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; }
+  #rooms .rooms-info ul {
+    list-style: disc; }
+  #rooms .rooms-info ul li {
+    padding: 0.3rem; }
+  #rooms .rooms-info .room h3 {
+    padding: 1rem;
+    font-size: 1.4rem;
+    padding-left: 60px; }
+  #rooms .rooms-info .room-2 h3 {
+    padding-left: 75px; }
+  #rooms .rooms-info .room img {
+    width: 300px;
+    height: 300px; }
+  #rooms .rooms-info span {
+    color: #cf7c08; }
+
+#contact-form {
+  background: #cf7c08;
+  color: #fff; }
+
+#contact-form h1 {
+  font-size: 2.6rem;
+  text-align: center;
+  padding: 3rem; }
+
+#contact-form p {
+  padding-bottom: 1rem; }
+
+#contact-form .btn1 {
+  background: #ffbc00;
+  color: #333;
+  padding: 0.8rem 2rem;
+  border: none;
+  margin-bottom: 1rem; }
+
+#contact-form .btn1:hover {
+  background: #fff;
+  transition: all 500ms; }
+
+.form-group {
+  margin-bottom: 20px; }
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px; }
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd; }
+
+.form-group textarea {
+  height: 140px; }
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #f7c08a; }
+
+#contact-info {
+  color: #fff;
+  background: #333;
+  display: flex; }
+  #contact-info .box {
+    flex: 1;
+    text-align: center;
+    padding: 2rem; }
+  #contact-info .box i {
+    margin: 0.7rem 0; }
+
+#main-footer {
+  text-align: center;
+  padding: 20px;
+  background: #444;
+  color: #fff; }
